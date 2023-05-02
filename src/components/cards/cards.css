@@ -1,0 +1,44 @@
+.card {
+    border:1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    min-width: 200px;
+    max-width: 500px;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+}
+
+.right {
+    font-weight: bold;
+    max-width: 200px;
+}
+
+.nameContainer {
+    display: flex;
+    align-items: center;
+}
+.nameContainer img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.nameContainer div {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.description {
+    padding: 20px 0;
+    font-size: .9em;
+    color: grey;
+}
+
+.purchaseDate div {
+    font-weight: bold;
+}

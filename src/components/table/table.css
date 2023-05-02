@@ -1,0 +1,71 @@
+
+
+.location {
+    width: 50px;
+}
+.location img {
+    width: inherit;
+    border-radius: 50%;
+}
+.category {
+    padding: 5px;
+}
+
+.date {
+    white-space: nowrap;
+}
+
+.price {
+    font-weight: bold;
+}
+
+table {
+    border:1px solid #ddd;
+    border-radius: 4px;
+    border-collapse: collapse;
+}
+table thead tr th {
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+}
+table tr td:first-child {
+    font-weight: bold;
+}
+table tr {
+    text-align: left;
+}
+
+table td, th {
+    padding: 10px 30px;
+}
+
+
+.actions {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
